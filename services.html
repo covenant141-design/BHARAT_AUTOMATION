@@ -64,19 +64,19 @@
 </head>
 <body class="antialiased selection:bg-blue-200 selection:text-blue-900 bg-pattern">
 
-    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 py-4 px-6 md:px-12 transition-all duration-300" id="navbar">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <div class="flex items-center gap-3">
-                <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="10" y="10" width="80" height="80" rx="16" fill="#0f172a"/>
-                    <path d="M30 70 L50 30 L70 70" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-                    <circle cx="50" cy="55" r="8" fill="#2563eb" />
-                </svg>
-                
-                <a href="index" class="flex items-center gap-3 cursor-pointer">
-                   <!-- Your SVG Logo here -->
-                <span class="text-xl font-bold tracking-tight text-slate-900">Bharat Automations</span>
-              </a>
+   <nav class="fixed top-0 left-0 w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-200 py-4 px-6 md:px-12 transition-all duration-300" id="navbar">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        
+        <!-- Clickable Brand Link -->
+        <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity cursor-pointer">
+            
+            <!-- Styled Logo Image -->
+            <img src="assests/images/logooo.png" alt="Bharat Automations Logo" class="w-8 h-8 object-contain">
+            
+            <!-- Company Name -->
+            <span class="text-xl font-bold tracking-tight text-slate-900">Bharat Automations</span>
+            
+        </a>
                 
                
             </div>
@@ -119,47 +119,70 @@
             <!-- Service 1: Four Wheeler -->
             <div class="flex flex-col lg:flex-row items-center gap-16 mb-32 service-block">
                 <div class="w-full lg:w-1/2 relative h-[350px] clean-card overflow-hidden bg-slate-100 flex items-center justify-center">
-                    <div class="absolute top-4 left-4 bg-white px-3 py-1.5 text-xs font-semibold rounded shadow-sm border border-slate-200 text-slate-700 z-20">
-                        LMV Track Diagnostics
-                    </div>
-                    
+                   
+                 
                     <!-- Real Image Placeholder -->
                     <!-- TODO: Add your real 4W Track image URL here -->
                     <img src="assests/images/H.png" alt="4-Wheeler Track Calibration" class="absolute inset-0 w-full h-full object-cover z-10">
                 </div>
                 
-                <div class="w-full lg:w-1/2">
-                    <h2 class="text-3xl font-bold mb-4 text-slate-900 tracking-tight">4-Wheeler Track Calibration</h2>
-                    <p class="text-slate-600 mb-8 text-lg leading-relaxed">
-                        We digitize complex maneuvers. From Gradient tests to H-Tracks and Reverse S, our calibrated mesh of IP-cameras and boundary sensors detect kerb hits and path deviations with zero latency.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
-                            <i class="fas fa-parking text-slate-400 mb-2 text-lg"></i>
-                            <h4 class="font-bold text-slate-800 text-sm">Reverse Parking</h4>
-                        </div>
-                        <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
-                            <i class="fas fa-route text-slate-400 mb-2 text-lg"></i>
-                            <h4 class="font-bold text-slate-800 text-sm">Reverse 'S' Track</h4>
-                        </div>
-                        <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
-                            <i class="fas fa-mountain text-slate-400 mb-2 text-lg"></i>
-                            <h4 class="font-bold text-slate-800 text-sm">Gradient Test</h4>
-                        </div>
-                        <div class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm">
-                            <i class="fas fa-arrows-alt text-slate-400 mb-2 text-lg"></i>
-                            <h4 class="font-bold text-slate-800 text-sm">'H' Track Analytics</h4>
-                        </div>
-                    </div>
-                </div>
+               <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+    
+    <!-- 1 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-parking text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Reverse Parking</h4>
+    </div>
+    
+    <!-- 2 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-route text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Reverse 'S' Track</h4>
+    </div>
+    
+    <!-- 3 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-mountain text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Gradient Test</h4>
+    </div>
+    
+    <!-- 4 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-arrows-alt text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">'H' Track Analytics</h4>
+    </div>
+
+    <!-- 5 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-infinity text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">8 Track</h4>
+    </div>
+
+    <!-- 6 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-grip-lines-vertical text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Perpendicular Parking</h4>
+    </div>
+
+    <!-- 7 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-location-arrow text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Angular Parking</h4>
+    </div>
+
+    <!-- 8 -->
+    <div class="bg-white p-3 rounded-lg border border-slate-200 shadow-sm flex flex-col items-start justify-center">
+        <i class="fas fa-traffic-light text-slate-400 mb-2 text-lg"></i>
+        <h4 class="font-bold text-slate-800 text-xs sm:text-sm">Traffic Junction Test</h4>
+    </div>
+
+</div>
             </div>
 
             <!-- Service 2: Two Wheeler -->
             <div class="flex flex-col lg:flex-row-reverse items-center gap-16 mb-32 service-block">
                 <div class="w-full lg:w-1/2 relative h-[350px] clean-card overflow-hidden bg-slate-100 flex items-center justify-center">
-                     <div class="absolute top-4 right-4 bg-white px-3 py-1.5 text-xs font-semibold rounded shadow-sm border border-slate-200 text-slate-700 z-20">
-                        2W Track Diagnostics
-                    </div>
+                    
                     
                     <!-- Real Image Placeholder -->
                     <!-- TODO: Add your real 2W Track image URL here -->
@@ -169,7 +192,7 @@
                 <div class="w-full lg:w-1/2">
                     <h2 class="text-3xl font-bold mb-4 text-slate-900 tracking-tight">2-Wheeler Evaluation Systems</h2>
                     <p class="text-slate-600 mb-8 text-lg leading-relaxed">
-                        Precision engineering for Serpentine and Figure-8 tracks. Specialized overhead vision systems map exact trajectories, objectively flagging foot-touches or boundary deviations.
+                        Precision engineering for Serpentine tracks. Specialized overhead vision systems map exact trajectories, objectively flagging foot-touches or boundary deviations.
                     </p>
                     <ul class="space-y-4">
                         <li class="flex items-center gap-4 bg-white border border-slate-200 p-4 rounded-lg shadow-sm">
@@ -186,7 +209,7 @@
                                 <i class="fas fa-infinity"></i>
                             </div>
                             <div>
-                                <h4 class="font-bold text-slate-900 text-sm">Figure-8 Trajectory</h4>
+                                <h4 class="font-bold text-slate-900 text-sm">Serpentine Trajectory</h4>
                                 <span class="text-sm text-slate-500">Virtual overhead calibration ensures perfect pathing</span>
                             </div>
                         </li>
@@ -236,10 +259,7 @@
     <footer class="bg-slate-900 py-12">
         <div class="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6">
             <div class="flex items-center gap-3">
-                 <svg width="24" height="24" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="10" y="10" width="80" height="80" rx="16" fill="#1e293b"/>
-                    <path d="M30 70 L50 30 L70 70" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+                  <img src="assests/images/logooo.png" alt="Bharat Automations Logo" class="w-8 h-8 object-contain">
                 <span class="font-bold text-white tracking-wide">Bharat Automations</span>
             </div>
             <p class="text-slate-400 text-sm">© 2026 Bharat Automations. Standardizing Road Safety.</p>
